@@ -1,0 +1,32 @@
+@media (min-width:0) and (max-width:575px){
+    .navbar-brand{
+    width: 80%;
+    margin-right: 0
+    } 
+    nav ul li:after{
+        display: none;
+    }
+    .contact-form-section{
+        padding: 20px 0;
+    }
+}
+
+
+@media (min-width:575.1px) and (max-width:767px){
+    nav ul li:after{
+        display: none;
+    }
+    .contact-form-section{
+        padding: 15px 0;
+    }
+}
+
+@media (min-width:767.1px) and (max-width:991px){
+   nav{
+    padding: 5px 0!important;
+}
+}
+
+@media (min-width:991.1px) and (max-width:1200px){
+    
+}

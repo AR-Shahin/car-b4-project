@@ -1,0 +1,186 @@
+@media (min-width:0) and (max-width:575px){
+    .navbar-brand{
+    width: 80%;
+    margin-right: 0
+    } 
+    nav ul li:after{
+        display: none;
+    }
+    section{
+        padding: 20px 0;
+    }
+    .btn{
+        padding: 10px 30px;
+    }
+    .hero-section{
+     padding-top: 40px;
+    padding-bottom: 60px;
+    }
+    .hero-section .hero-content{
+        width: 100%;
+    }
+    .hero-section .hero-content .phone-number{
+        padding: 8px 10px;
+        font-size: 22px;
+    }
+    .hero-section .hero-content p{
+        margin:  0;
+    }
+    .hero-section .hero-content .btn-box{
+        margin-top: 15px;
+    }
+    .crash-section{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .crash-section h2{
+        font-size: 22px;
+        margin: 0;
+    }
+    .crash-section p{
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .crash-section .style{
+        height: 30px;
+        width: 30px;
+        bottom: -15px;
+    }
+    .car-section{
+        padding-top: 35px;
+    }
+    .car-section h2{
+        font-size: 22px;
+        margin: 0;
+    }
+    .car-section p{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .car-section .btn-car{
+        margin-bottom: 35px;
+    }
+    footer{
+        padding: 20px 0;
+    }
+}
+
+
+@media (min-width:575.1px) and (max-width:767px){
+      nav ul li:after{
+        display: none;
+    }
+    section{
+        padding: 20px 0;
+    }
+    .btn{
+        padding: 10px 30px;
+    }
+    .hero-section{
+     padding-top: 40px;
+    padding-bottom: 60px;
+    }
+    .hero-section .hero-content{
+        width: 100%;
+    }
+    .hero-section .hero-content .phone-number{
+        padding: 8px 10px;
+        font-size: 22px;
+    }
+    .crash-section{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .crash-section h2{
+        font-size: 22px;
+        margin: 0;
+    }
+    .crash-section p{
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .car-section{
+        padding-top: 35px;
+    }
+    .car-section h2{
+        font-size: 22px;
+    }
+    .car-section p{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .car-section .btn-car{
+        margin-bottom: 25px;
+    }
+    footer{
+        padding: 20px 0;
+    }
+    .crash-section .style{
+        height: 30px;
+        width: 30px;
+        bottom: -15px;
+    }
+}
+
+@media (min-width:767.1px) and (max-width:991px){
+    nav ul li:after{
+        display: none;
+    }
+    section{
+        padding: 20px 0;
+    }
+    .btn{
+        padding: 10px 30px;
+    }
+    .hero-section{
+     padding-top: 40px;
+    padding-bottom: 60px;
+    }
+    .hero-section .hero-content{
+        width: 100%;
+    }
+    .hero-section .hero-content .phone-number{
+        padding: 8px 10px;
+        font-size: 22px;
+    }
+    .hero-section .hero-content p{
+        margin:  0;
+    }
+    .hero-section .hero-content .btn-box{
+        margin-top: 15px;
+    }
+    .crash-section{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .crash-section h2{
+        font-size: 22px;
+        margin: 0;
+    }
+    .crash-section p{
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .crash-section .style{
+        height: 30px;
+        width: 30px;
+        bottom: -15px;
+    }
+    .car-section{
+        padding-top: 25px;
+    }
+    .car-section h2{
+        font-size: 22px;
+        margin: 0;
+    }
+    .car-section p{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .car-section .btn-car{
+        margin-bottom: 25px;
+    }
+    footer{
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,178 @@
+
+
+/* BASIC SETUP*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+	font-style: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* HEADING */
+
+.btn{
+    text-decoration: none;
+    -webkit-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 80px;
+    border: 2px solid #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color: #fff;
+}
+
+/* header*/
+header{
+    background: url('../Images/hero.png') center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav ul li{
+    margin: 0 20px;
+    position: relative;
+    padding-right: 20px;
+}
+nav ul li:after{
+    position: absolute;
+   content: "/";
+    color: #fff;
+    top:45%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 0;
+    bottom: 0;
+}
+ 
+nav ul li:last-child:after{
+    display: none;
+}
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+section{
+    padding: 50px 0;
+}
+nav ul li a:hover{
+    color: #fafd17;
+}
+.hero-section{
+    padding-top: 110px;
+    padding-bottom: 240px;
+}
+.hero-section .hero-content{
+    width: 55%;
+    color: #fff;
+}
+.hero-section .hero-content .phone-number{
+    padding: 20px 40px;
+    display: inline-block;
+    background-color:rgba(52, 53, 51, 0.75);
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+}
+.hero-section .hero-content p{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 15px 0;
+    line-height: 30px;
+}
+.hero-section .hero-content span{
+    background: #fff;
+    height: 1px;
+    width: 20px;
+    display: inline-block;
+}
+.hero-section .hero-content .btn-box{
+    margin-top: 25px;
+}
+/* crash section*/
+.crash-section{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+.crash-section h2{
+    font-weight: 600;
+    font-size: 32px
+}
+.crash-section span{
+    display: inline-block;
+    background: #111;
+    height: 2px;
+    width: 20px;
+}
+.crash-section p{
+    margin: 10px 0;
+    font-weight: 400;
+}
+.crash-section .style{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    height: 40px;
+    width: 40px;
+    background: #f6f6f6;
+}
+
+.car-section{
+    background-color: #28282e;
+    color: #fff;
+}
+.car-section h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.car-section span{
+    display: inline-block;
+    background: #fff;
+    height: 2px;
+    width: 20px;
+}
+.car-section p{
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+.car-section .btn-car{
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+footer{
+    padding: 30px 0;
+    background-color: #ef4035;
+    color: #fff;
+    text-align: center;
+}
+footer span{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
